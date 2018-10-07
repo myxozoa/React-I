@@ -2,6 +2,14 @@ import React from 'react';
 
 import Todo from './Todo';
 
+import testObj from './test';
+import testObj2 from './test';
+
+if(true) {
+
+    console.log(testObj === testObj2);
+}
+
 class TodoList extends React.Component {
         state = {
             newItem: '',
